@@ -23,7 +23,7 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20px;
+    margin-top: 15px;
     height: 20px;
     width: 120px;
 }
@@ -34,16 +34,17 @@ body {
     text-align: center;
     background: black;
     height: 50px;
-    margin-top: 100px;
+    margin-top: 80px;
     text-decoration: none;
     font-family: 'Nanum Gothic', sans-serif;
     letter-spacing: 2px;
+    font-size: 15px;
 }
 
 nav a {
     margin-top: 0px;
-    margin-right: 16px;
-    margin-left: 16px;
+    margin-right: 13px;
+    margin-left: 13px;
     color: white;
 }
 
@@ -57,7 +58,7 @@ nav ul {
 nav ul li {
     display: inline-block;
     margin-right: 0px;
-    width: 10%;
+    width: 9%;
     height: 100%;
 }
 
@@ -65,18 +66,17 @@ nav ul li a {
   text-decoration: none;
 }
 
-/* .telephone-cord {
-    width: 10px;
-    height: 300px;
+/* .telephone-line {
     color: red;
-    background-color: green;
+    background-color:red;;
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
     -o-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
     float: right;
-} */
+    width: 0%;
+}  */
 
 .header-section {
     z-index: 1;
@@ -92,9 +92,8 @@ nav ul li a {
     background: transparent;
     font-family: 'Poppins', sans-serif;
     font-weight: 100;
-    top: 550px;
+    top: 570px;
     position: absolute;
-    float: left;
     text-align: center;
 }
 
@@ -109,44 +108,99 @@ nav ul li a {
 
 .header-subtitle {
     color: white;
-    background: transparent;
     font-size: 15px;
     font-weight: 100;
     letter-spacing: 2px;
     margin-top: 0px;
+    margin-bottom: 1px;
+}
+
+.scroll-image {
+    height: 45px;
+    width: 45px;
+    margin-top: 120px;
+}
+
+.scroll-title {
+    height: 30px;
+    width: 30px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    position: absolute;
+    margin-top: 165px;
+    margin-left: -50px;
+    color: white;
+    text-align: center;
+}
+
+.scroll-arrow {
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    margin-top: 260px;
+    margin-left: -35px;
+    color: white;
+    text-align: center;
+    background: transparent;
+    background: red;
 }
 
 .social-nav-bar {
     right: -620px;
-    top: 250px;
+    top: 150px;
     position: absolute;
     transform: rotate(-90deg);
     font-family: 'Nanum Gothic', san-serif; 
-    font-size: 12px;
+    font-size: 15px;
     color: white;
     background-color: transparent;
     background: transparent;
     text-transform: uppercase;
     letter-spacing: 2px;
+}
 
-    /* 
-    font-size: 15px;
-    text-transform: uppercase;
-    -webkit-transform: rotate(270deg);
-    -moz-transform: rotate(270deg);
-    -o-transform: rotate(270deg);
-    -ms-transform: rotate(270deg);
-    transform: rotate(270deg);
-    color: white;
-    font-family: 'Nanum Gothic', san-serif; 
-    background-color: transparent;
-    background: transparent;
-    margin-right: -100px;
-    float: right; */
+.copyright {
+    margin-right: 100px;
 }
 
 .purple-img {
     height: 700px;
+    z-index: 1;
+    position: relative;
+}
+
+.white-square {
+    top: 1070px;
+    z-index: 2;
+    height: 500px;
+    width: 550px;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 420px;
+    color: white;
+    background: transparent;
+}
+
+.number-one-icon {
+    color: orange;
+    background: transparent;
+    width: 100px;
+    height: 170px;
+    position: absolute;
+    z-index: 2;
+    float: left;
+    margin-left: 310px;
+    margin-top: 60px;
+}
+
+.brush-box-image {
+    background: transparent;
+    width: 350px;
+    height: 300px;
+    position: absolute;
+    z-index: 3;
+    margin-left: 800px;
+    margin-top: 50px;
 }
 
 .city-section {
