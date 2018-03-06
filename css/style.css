@@ -12,6 +12,10 @@ body {
     background-color: black;
 }
 
+footer {
+    height: 100px;
+}
+
 .unity-div {
     height: 0px;
     z-index: 2;
@@ -177,7 +181,7 @@ nav ul li a {
     z-index: 2;
     margin-top: -300px;
     background: transparent;
-    margin-left: 15%;
+    margin-left: 20%;
     height: 800px;
     width: 970px;
 }
@@ -188,7 +192,7 @@ nav ul li a {
     background: transparent;
     position: absolute;
     z-index: 2;
-    margin-left: 390px;
+    margin-left: 450px;
     margin-top: 270px;
     margin-bottom: 0px;
 }
@@ -199,7 +203,7 @@ nav ul li a {
     background: transparent;
     position: absolute;
     z-index: 2;
-    margin-left: 390px;
+    margin-left: 450px;
     margin-top: 300px;
     display: inline-block;
 }
@@ -223,6 +227,36 @@ nav ul li a {
     padding: 10px;
 }
 
-footer {
-    height: 100px;
+.footer-background {
+    background-image: url("../images/prototype_0006s_0001_Rectangle-14-copy.png");
+    width: 100%;
+    height: 600px;
+    position: relative;
+    z-index: 1;
+    border: 2px solid red;
 }
+
+.footer-content-container {
+    position: absolute;
+    z-index: 2;
+    border: 1px solid green;
+}
+
+.footer-image-studygirl {
+    height: 200px;
+    width: 200px;
+    border: 1px solid violet;
+    margin-top: 13%;
+    margin-left: 15%;
+    position: absolute;
+}
+
+.footer-aboutus {
+    height: 20px;
+    width: 100px;
+    margin-top: 9%;
+    margin-left: 15%;
+    border: 1px solid yellowgreen;
+    position: absolute;
+}
+
