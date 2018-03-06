@@ -1,4 +1,4 @@
-* {
+*, html {
     width: 100%;
 }
 
@@ -15,6 +15,7 @@ body {
 .unity-div {
     height: 0px;
     z-index: 2;
+    
 }
 
 .unity-icon {
@@ -27,6 +28,9 @@ body {
     width: 120px;
     position: absolute; 
     z-index: 2;
+    list-style: none;
+    margin-left:45%;
+    margin-right: 50%;
 }
 
 .nav-bar {
@@ -168,11 +172,12 @@ nav ul li a {
     margin-right: 100px;
 }
 
-.purple-img {
+ /* .purple-background {
     height: 700px;
     z-index: 1;
     position: relative;
-}
+    width: 100%;
+} */
 
 .number-one-icon {
     color: orange;
@@ -250,6 +255,19 @@ nav ul li a {
 .city-img {
     height: 1200px; 
     margin-top: 500px;
+    position: relative;
+    z-index: 1;
+}
+
+.city-play-button {
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    z-index: 2;
+    margin-left:40%;
+    margin-right: 50%;
+    margin-top: 25%;
+    padding: 10px;
 }
 
 footer {
