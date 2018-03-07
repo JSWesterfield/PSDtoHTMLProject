@@ -297,6 +297,28 @@ nav ul li a {
     width: 120px;
 }
 
+.white-section-bottom-black-outline-title {
+    position: absolute;
+    z-index: 3;
+    margin-top: 875px;
+    background: transparent;
+    margin-left: 36%;
+    height: 40px;
+    width: 200px;
+}
+
+.white-section-bottom-black-outline-subtitle {
+    position: absolute;
+    z-index: 3;
+    margin-top: 943px;
+    background: transparent;
+    padding-top: 2px;
+    margin-left: 36%;
+    height: 80px;
+    width: 370px;
+}
+
+
 .white-section-bottom-black-outline-x-delete {
     position: absolute;
     z-index: 3;
@@ -306,6 +328,42 @@ nav ul li a {
     height: 28px;
     width: 28px;
 }
+
+.white-section-bottom-black-outline-icon-divider {
+    position: absolute;
+    z-index: 3;
+    margin-top: 900px;
+    background: transparent;
+    margin-left: 68%;
+    height: 100px;
+    width: 380px;
+}
+
+.icon-table {
+    position: absolute;
+    z-index: 4;
+    margin-top: 800px;
+    background: transparent;
+    margin-left: 68%;
+    height: 300px;
+    width: 400px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+/* manipulate all the white section table data icons(not text data) */
+td {
+    position: relative;
+    z-index: 4;
+  }
+  
+  .icon {
+  	height: 24px;
+    width: 24px;
+    padding-right: 10px;
+    position: relative;
+    z-index: 4;
+  }
 
 
 /* Snowscape section */
