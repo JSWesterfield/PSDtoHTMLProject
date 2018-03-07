@@ -367,9 +367,36 @@ td {
 
 
 /* Snowscape section */
-.snowscape-section-purple-rectangle {
-    height: 300px;
-    width: 100px;
+.snowscape-background {
+    position: relative;
+    z-index: 1;
+}
+
+.snowscape-title {
+    height: 85px;
+    width: 900px;
+    position: absolute;
+    z-index: 2;
+    margin-left: 20%;
+    margin-top: -935px;
+}
+
+.snowscape-subtitle {
+    height: 80px;
+    width: 1000px;
+    position: absolute;
+    z-index: 2;
+    margin-left: 15%;
+    margin-top: -800px;
+}
+
+.snowscape-vertical-breakline {
+    height: 200px;
+    width: 5px;
+    position: absolute;
+    z-index: 2;
+    margin-left: 48%;
+    margin-top: -640px;
 }
 
 
