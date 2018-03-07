@@ -252,7 +252,7 @@ nav ul li a {
     z-index: 2;
     margin-top: -280px;
     background: transparent;
-    margin-left: 22%;
+    margin-left: 21%;
     height: 720px;
     width: 900px;
 }
@@ -264,28 +264,49 @@ nav ul li a {
     background: transparent;
     margin-left: 5%;
     height: 680px;
-    width: 890px;
+    width: 950px;
 }
 
 .white-section-bottom-black-outline-left-arrow {
     position: absolute;
     z-index: 3;
-    margin-top: 670px;
+    margin-top: 750px;
     background: transparent;
-    margin-left: 20%;
-    height: 30px;
-    width: 30px;
+    margin-left: 10%;
+    height: 28px;
+    width: 28px;
 }
 
 .white-section-bottom-black-outline-right-arrow {
     position: absolute;
     z-index: 3;
-    margin-top: 720px;
+    margin-top: 750px;
     background: transparent;
-    margin-left: 20%;
-    height: 30px;
-    width: 30px;
+    margin-left: 22%;
+    height: 28px;
+    width: 28px;
 }
+
+.white-section-bottom-black-outline-prev-next {
+    position: absolute;
+    z-index: 3;
+    margin-top: 756px;
+    background: transparent;
+    margin-left: 13%;
+    height: 16px;
+    width: 120px;
+}
+
+.white-section-bottom-black-outline-x-delete {
+    position: absolute;
+    z-index: 3;
+    margin-top: 855px;
+    background: transparent;
+    margin-left: 61%;
+    height: 28px;
+    width: 28px;
+}
+
 
 /* Snowscape section */
 .snowscape-section-purple-rectangle {
