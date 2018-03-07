@@ -103,7 +103,7 @@ nav ul li a {
 }
 
 .header-img {
-    height: 1500px;
+    height: 1600px;
     text-transform: uppercase;  
     position: relative;
     z-index: 1; 
@@ -226,6 +226,7 @@ nav ul li a {
     margin-bottom: 10px;
 }
 
+
 /* Cityscape section */
 .city-play-button {
     height: 300px;
@@ -246,6 +247,25 @@ nav ul li a {
     background-color: #fdfdfd;
 }
 
+.white-section-top-black-outline {
+    position: absolute;
+    z-index: 2;
+    margin-top: -300px;
+    background: transparent;
+    margin-left: 25%;
+    height: 800px;
+    width: 970px;
+}
+
+.white-section-bottom-black-outline {
+    position: absolute;
+    z-index: 2;
+    margin-top: 400px;
+    background: transparent;
+    margin-left: 8%;
+    height: 800px;
+    width: 970px;
+}
 
 /* Snowscape section */
 .snowscape-section-purple-rectangle {
