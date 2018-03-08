@@ -188,6 +188,10 @@ nav ul li a {
 
 
 /* purple section */
+.purple-background {
+    height: 1100px;
+}
+
 .purple-section-icons {
     position: absolute;
     z-index: 2;
@@ -195,7 +199,7 @@ nav ul li a {
     background: transparent;
     margin-left: 20%;
     height: 700px;
-    width: 970px;
+    width: 990px;
 }
 
 .purple-section-title {
@@ -204,7 +208,7 @@ nav ul li a {
     background: transparent;
     position: absolute;
     z-index: 2;
-    margin-left: 450px;
+    margin-left: 455px;
     margin-top: 180px;
     margin-bottom: 2px;
     text-transform: uppercase;
@@ -212,18 +216,130 @@ nav ul li a {
 
 .purple-section-subtitle {
     color: white;
-    font-size: 16px;
+    font-size: 17px;
     background: transparent;
     position: absolute;
     z-index: 2;
-    margin-left: 450px;
+    margin-left: 455px;
     margin-top: 220px;
-    display: inline-block;
+    margin-bottom: 2px;
     text-transform: uppercase;
 }
 
 #purple-section-invites {
     margin-bottom: 10px;
+}
+
+.purple-section-left-block-text {
+    width: 230px;
+    height: 190px;
+    position: absolute;
+    z-index: 2;
+    margin-left: 20%;
+    margin-top: -620px;
+    display: inline-block;
+}
+
+.purple-section-right-block-text {
+    width: 550px;
+    height: 100px;
+    position: absolute;
+    z-index: 2;
+    margin-left: 42%;
+    margin-top: -570px;
+    display: inline-block;
+}
+
+.purple-section-column-one {
+    width: 170px;
+    height: 200px;
+    position: absolute;
+    z-index: 2;
+    margin-left: 20%;
+    margin-top: -290px;
+}
+
+.purple-section-column-two {
+    width: 170px;
+    height: 200px;
+    position: absolute;
+    z-index: 2;
+    margin-left: 42%;
+    margin-top: -290px;
+}
+
+.purple-section-column-three {
+    width: 170px;
+    height: 200px;
+    position: absolute;
+    z-index: 2;
+    margin-left: 63%;
+    margin-top: -290px;
+}
+
+  /* purple icons */
+.purple-section-node-icon {
+    height: 40px;
+    width: 40px;
+    margin-bottom: 5px;
+    margin-top: -70px;
+    position: absolute;
+    z-index: 2;
+}
+
+.purple-section-hat-icon {
+    height: 40px;
+    width: 40px;
+    margin-bottom: 5px;
+    margin-top: -70px;
+    position: absolute;
+    z-index: 2;
+}
+
+.purple-section-tools-icon {
+    height: 40px;
+    width: 40px;
+    margin-bottom: 5px;
+    margin-top: -70px;
+    position: absolute;
+    z-index: 2;
+}
+
+.purple-section-tools-icon-divider {
+    height: 1px;
+    width: 45px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    position: absolute;
+    z-index: 2;
+}
+
+.purple-section-icon-paragraph {
+    height: 70px;
+    width: 230px;
+    margin-top: 40px;
+    position: absolute;
+    z-index: 2;
+}
+
+.purple-section-bottom-notch-orange {
+    height: 4px;
+    width: 50px;
+    margin-top: -70px;
+    position: absolute;
+    margin-left: 45%;
+    border-radius: 10%;
+    z-index: 2;
+}
+
+.purple-section-bottom-notch-white {
+    height: 3px;
+    width: 48px;
+    margin-top: -70px;
+    position: absolute;
+    margin-left: 50%;
+    border-radius: 10%;
+    z-index: 2;
 }
 
 
