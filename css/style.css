@@ -194,30 +194,30 @@ nav ul li a {
     margin-top: -300px;
     background: transparent;
     margin-left: 20%;
-    height: 800px;
+    height: 700px;
     width: 970px;
 }
 
 .purple-section-title {
     color: white;
-    font-size: 20px;
+    font-size: 29px;
     background: transparent;
     position: absolute;
     z-index: 2;
     margin-left: 450px;
-    margin-top: 270px;
-    margin-bottom: 0px;
+    margin-top: 180px;
+    margin-bottom: 2px;
     text-transform: uppercase;
 }
 
 .purple-section-subtitle {
     color: white;
-    font-size: 15px;
+    font-size: 16px;
     background: transparent;
     position: absolute;
     z-index: 2;
     margin-left: 450px;
-    margin-top: 300px;
+    margin-top: 220px;
     display: inline-block;
     text-transform: uppercase;
 }
@@ -229,16 +229,37 @@ nav ul li a {
 
 /* Cityscape section */
 .city-play-button {
-    height: 300px;
-    width: 300px;
+    height: 280px;
+    width: 280px;
     position: absolute;
     z-index: 2;
     margin-left:40%;
     margin-right: 50%;
-    margin-top: 25%;
+    margin-top: 30%;
     padding: 10px;
 }
 
+.city-background {
+    height: 1100px;
+}
+
+.city-title {
+    height: 50px;
+    width: 440px;
+    position: absolute;
+    z-index: 2;
+    margin-left: 33%;
+    margin-top: -900px;
+}
+
+.city-subtitle {
+    height: 40px;
+    width: 580px;
+    position: absolute;
+    z-index: 2;
+    margin-left: 28%;
+    margin-top: -820px;
+}
 
 /* White section*/
 .white-section {
@@ -253,7 +274,7 @@ nav ul li a {
     margin-top: -280px;
     background: transparent;
     margin-left: 21%;
-    height: 720px;
+    height: 700px;
     width: 900px;
 }
 
@@ -263,8 +284,8 @@ nav ul li a {
     margin-top: 650px;
     background: transparent;
     margin-left: 5%;
-    height: 680px;
-    width: 950px;
+    height: 660px;
+    width: 930px;
 }
 
 .white-section-bottom-black-outline-left-arrow {
@@ -282,7 +303,7 @@ nav ul li a {
     z-index: 3;
     margin-top: 750px;
     background: transparent;
-    margin-left: 22%;
+    margin-left: 23%;
     height: 28px;
     width: 28px;
 }
@@ -301,8 +322,8 @@ nav ul li a {
     position: absolute;
     z-index: 3;
     margin-top: 875px;
+    margin-left: 39%;
     background: transparent;
-    margin-left: 36%;
     height: 40px;
     width: 200px;
 }
@@ -311,9 +332,9 @@ nav ul li a {
     position: absolute;
     z-index: 3;
     margin-top: 943px;
+    margin-left: 39%;
     background: transparent;
     padding-top: 2px;
-    margin-left: 36%;
     height: 80px;
     width: 370px;
 }
@@ -324,7 +345,7 @@ nav ul li a {
     z-index: 3;
     margin-top: 855px;
     background: transparent;
-    margin-left: 61%;
+    margin-left: 65%;
     height: 28px;
     width: 28px;
 }
@@ -334,9 +355,9 @@ nav ul li a {
     z-index: 3;
     margin-top: 900px;
     background: transparent;
-    margin-left: 68%;
-    height: 100px;
-    width: 380px;
+    margin-left: 70%;
+    height: 80px;
+    width: 370px;
 }
 
 .icon-table {
@@ -344,9 +365,9 @@ nav ul li a {
     z-index: 4;
     margin-top: 800px;
     background: transparent;
-    margin-left: 68%;
-    height: 300px;
-    width: 400px;
+    margin-left: 70%;
+    height: 280px;
+    width: 370px;
     text-transform: uppercase;
     font-weight: 900;
 }
@@ -355,15 +376,15 @@ nav ul li a {
 td {
     position: relative;
     z-index: 4;
-  }
+}
   
-  .icon {
-  	height: 24px;
-    width: 24px;
+.icon {
+  	height: 22px;
+    width: 22px;
     padding-right: 10px;
     position: relative;
     z-index: 4;
-  }
+}
 
 
 /* Snowscape section */
