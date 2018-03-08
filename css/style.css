@@ -110,14 +110,14 @@ nav ul li a {
 }
 
 .title-section {
-    text-transform: uppercase;
-    background: transparent;
+    height: 20px;
     font-family: 'Helvetica Narrow', sans-serif;
     font-weight: 100;
+    text-transform: uppercase;  
+    background: transparent;
     top: 420px;
-    position: absolute;
     text-align: center;
-    height: 20px;
+    position: absolute;
 }
 
 .header-title {
@@ -187,7 +187,7 @@ nav ul li a {
 }
 
 
-/* purple section */
+/* PURPLE SECTION */
 .purple-background {
     height: 1100px;
 }
@@ -255,17 +255,17 @@ nav ul li a {
 }
 
 .purple-section-right-block-text {
-    width: 550px;
+    width: 560px;
     height: 100px;
     position: absolute;
     z-index: 2;
-    margin-left: 42%;
-    margin-top: -570px;
+    margin-left: 41%;
+    margin-top: -560px;
     display: inline-block;
 }
 
 .purple-section-column-one {
-    width: 170px;
+    width: 190px;
     height: 190px;
     position: absolute;
     z-index: 2;
@@ -274,7 +274,7 @@ nav ul li a {
 }
 
 .purple-section-column-two {
-    width: 170px;
+    width: 190px;
     height: 190px;
     position: absolute;
     z-index: 2;
@@ -283,7 +283,7 @@ nav ul li a {
 }
 
 .purple-section-column-three {
-    width: 170px;
+    width: 180px;
     height: 190px;
     position: absolute;
     z-index: 2;
@@ -291,7 +291,7 @@ nav ul li a {
     margin-top: -290px;
 }
 
-  /* purple icons */
+  /* PURPLE ICONS */
 .purple-section-node-icon {
     height: 40px;
     width: 40px;
@@ -329,8 +329,8 @@ nav ul li a {
 }
 
 .purple-section-icon-paragraph {
-    height: 70px;
-    width: 230px;
+    height: 60px;
+    width: 240px;
     margin-top: 40px;
     position: absolute;
     z-index: 2;
@@ -342,7 +342,7 @@ nav ul li a {
     margin-top: -70px;
     position: absolute;
     margin-left: 45%;
-    border-radius: 10%;
+    border-radius: 25%;
     z-index: 2;
 }
 
@@ -350,23 +350,23 @@ nav ul li a {
     height: 3px;
     width: 48px;
     margin-top: -70px;
-    position: absolute;
     margin-left: 50%;
-    border-radius: 10%;
+    border-radius: 25%;
+    position: absolute;
     z-index: 2;
 }
 
 
-/* Cityscape section */
+/* CITYSCAPE SECTION */
 .city-play-button {
     height: 230px;
     width: 230px;
-    position: absolute;
-    z-index: 2;
     margin-left:40%;
     margin-right: 50%;
     margin-top: 27%;
     padding: 10px;
+    position: absolute;
+    z-index: 2;
 }
 
 .city-background {
@@ -376,22 +376,23 @@ nav ul li a {
 .city-title {
     height: 50px;
     width: 440px;
-    position: absolute;
-    z-index: 2;
     margin-left: 33%;
     margin-top: -900px;
+    position: absolute;
+    z-index: 2;
 }
 
 .city-subtitle {
     height: 40px;
     width: 580px;
-    position: absolute;
-    z-index: 2;
     margin-left: 28%;
     margin-top: -820px;
+    position: absolute;
+    z-index: 2;
 }
 
-/* White section*/
+
+/* WHITE SECTION */
 .white-section {
     width: 100%;
     height: 1000px;
@@ -399,69 +400,69 @@ nav ul li a {
 }
 
 .white-section-top-black-outline {
-    position: absolute;
-    z-index: 2;
+    height: 700px;
+    width: 900px;
     margin-top: -280px;
     background: transparent;
     margin-left: 21%;
-    height: 700px;
-    width: 900px;
+    position: absolute;
+    z-index: 4;
 }
 
 .white-section-top-black-outline-title-one {
-    position: absolute;
-    z-index: 3;
-    font-size: 50px;
-    margin-top: 60px;
-    background: transparent;
-    margin-left: 31%;
     height: 80px;
     width: 500px;
-    text-align: right;
-}
-
-.white-section-top-black-outline-title-two {
-    position: absolute;
-    z-index: 3;
     font-size: 50px;
     margin-top: 80px;
     background: transparent;
     margin-left: 31%;
+    text-align: right;
+    position: absolute;
+    z-index: 2;
+}
+
+.white-section-top-black-outline-title-two {
     height: 80px;
     width: 500px;
+    font-size: 50px;
+    margin-top: 130px;
+    background: transparent;
+    margin-left: 31%;
     text-align: right;
+    position: absolute;
+    z-index: 2;
 }
 
 .white-section-top-black-outline-subtitle {
+    height: 50px;
+    width: 460px;
+    font-size: 28px;
+    background: transparent;
+    margin-left: 35%;
+    text-align: right;
+    margin-top: 200px;
     position: absolute;
     z-index: 3;
-    font-size: 30px;
-    margin-top: 120px;
-    background: transparent;
-    margin-left: 31%;
-    height: 40px;
-    width: 500px;
-    text-align: right;
 }
 
 .white-section-bottom-black-outline {
-    position: absolute;
-    z-index: 2;
+    height: 660px;
+    width: 930px;
     margin-top: 650px;
     background: transparent;
     margin-left: 5%;
-    height: 660px;
-    width: 930px;
+    position: absolute;
+    z-index: 2;
 }
 
 .white-section-bottom-black-outline-left-arrow {
-    position: absolute;
-    z-index: 3;
+    height: 28px;
+    width: 28px;
     margin-top: 750px;
     background: transparent;
     margin-left: 10%;
-    height: 28px;
-    width: 28px;
+    position: absolute;
+    z-index: 3;
 }
 
 .white-section-bottom-black-outline-right-arrow {
@@ -485,60 +486,60 @@ nav ul li a {
 }
 
 .white-section-bottom-black-outline-title {
-    position: absolute;
-    z-index: 3;
+    height: 40px;
+    width: 200px;
     margin-top: 875px;
     margin-left: 39%;
     background: transparent;
-    height: 40px;
-    width: 200px;
+    position: absolute;
+    z-index: 3;
 }
 
 .white-section-bottom-black-outline-subtitle {
-    position: absolute;
-    z-index: 3;
+    height: 80px;
+    width: 370px;
     margin-top: 943px;
     margin-left: 39%;
     background: transparent;
     padding-top: 2px;
-    height: 80px;
-    width: 370px;
+    position: absolute;
+    z-index: 3;
 }
 
 
 .white-section-bottom-black-outline-x-delete {
-    position: absolute;
-    z-index: 3;
+    height: 28px;
+    width: 28px;
     margin-top: 855px;
     background: transparent;
     margin-left: 65%;
-    height: 28px;
-    width: 28px;
+    position: absolute;
+    z-index: 3;
 }
 
 .white-section-bottom-black-outline-icon-divider {
-    position: absolute;
-    z-index: 3;
+    height: 80px;
+    width: 370px;
     margin-top: 900px;
     background: transparent;
     margin-left: 70%;
-    height: 80px;
-    width: 370px;
+    position: absolute;
+    z-index: 3;
 }
 
 .icon-table {
-    position: absolute;
-    z-index: 4;
+    height: 280px;
+    width: 370px;
+    font-weight: 900;
     margin-top: 800px;
     background: transparent;
     margin-left: 70%;
-    height: 280px;
-    width: 370px;
     text-transform: uppercase;
-    font-weight: 900;
+    position: absolute;
+    z-index: 4;
 }
 
-/* manipulate all the white section table data icons(not text data) */
+/* MANIPULATE ALL THE WHITE SECTION TABLE DATA ICONS(NOT TEXT DATA) */
 td {
     position: relative;
     z-index: 4;
@@ -553,162 +554,163 @@ td {
 }
 
 
-/* Snowscape section */
-.snowscape-background {
+/* SNOWSCAPE SECTION  */
+img.snowscape-background {
+    width: 100%;
+    height: 2300px;
     position: relative;
     z-index: 1;
-    width: 100%;
-    height: 1500;
 }
 
 .snowscape-title {
     height: 85px;
     width: 900px;
+    margin-left: 17%;
+    margin-top: -1175px;
     position: absolute;
     z-index: 2;
-    margin-left: 17%;
-    margin-top: -935px;
 }
 
 .snowscape-subtitle {
     height: 80px;
     width: 1050px;
+    margin-left: 11%;
+    margin-top: -1050px;
     position: absolute;
     z-index: 2;
-    margin-left: 11%;
-    margin-top: -800px;
 }
 
 .snowscape-vertical-breakline {
     height: 100px;
     width: 2px;
+    margin-left: 48%;
+    margin-top: -895px;
     position: absolute;
     z-index: 2;
-    margin-left: 48%;
-    margin-top: -640px;
 }
 
 .snowscape-review-section-title {
     height: 60px;
-    width: 730px;
+    width: 735px;
     font-size: 20px;
+    font-family: 'Nanum Gothic', sans-serif;
     font-weight: bold;
+    margin-left: 39%;
+    margin-top: -722px;
     position: absolute;
     z-index: 2;
-    margin-left: 38%;
-    margin-top: -460px;
-    font-family: 'Nanum Gothic', sans-serif;
 }
 
 .snowscape-left-reviewbox {
-    height: 360px;
-    width: 300px;
+    height: 475px;
+    width: 325px;
+    margin-left: 10%;
+    margin-top: -650px;
     position: absolute;
     z-index: 2;
-    margin-left: 10%;
-    margin-top: -400px;
 }
 
 .snowscape-middle-reviewbox {
-    height: 375px;
-    width: 300px;
+    height: 495px;
+    width: 345px;
+    margin-left: 37%;
+    margin-top: -650px;
     position: absolute;
     z-index: 2;
-    margin-left: 37%;
-    margin-top: -400px;
 }
 
 .snowscape-right-reviewbox {
-    height: 360px;
-    width: 300px;
+    height: 475px;
+    width: 325px;
+    margin-left: 64%;
+    margin-top: -650px;
     position: absolute;
     z-index: 2;
-    margin-left: 64%;
-    margin-top: -400px;
 }
 
 .snowscape-left-reviewbox-image {
     width: 100px;
     height: 100px;
+    margin-left: 19%;
+    margin-top: -610px;
     position: absolute;
     z-index: 3;
-    margin-left: 18%;
-    margin-top: -370px;
 }
 
 .snowscape-middle-reviewbox-image {
     width: 100px;
     height: 100px;
+    margin-left: 46%;
+    margin-top: -610px;
     position: absolute;
     z-index: 3;
-    margin-left: 44.5%;
-    margin-top: -370px;
 }
 
 .snowscape-right-reviewbox-image {
     width: 100px;
     height: 100px;
+    margin-left: 72.5%;
+    margin-top: -610px;
     position: absolute;
     z-index: 3;
-    margin-left: 72%;
-    margin-top: -370px;
 }
 
 .snowscape-left-reviewbox-review-stars {
     width: 95px;
     height: 17px;
+    margin-left: 19%;
+    margin-top: -470px;
     position: absolute;
     z-index: 3;
-    margin-left: 18%;
-    margin-top: -240px;
 }
 
 .snowscape-middle-reviewbox-review-stars {
     width: 95px;
     height: 17px;
+    margin-left: 46.5%;
+    margin-top: -470px;
     position: absolute;
     z-index: 3;
-    margin-left: 44.5%;
-    margin-top: -240px;
 }
 
 .snowscape-right-reviewbox-review-stars {
     width: 95px;
     height: 17px;
+    margin-left: 72.5%;
+    margin-top: -470px;
     position: absolute;
     z-index: 3;
-    margin-left: 72%;
-    margin-top: -240px;
 }
 
 .snowscape-left-reviewbox-review-text {
-    width: 230px;
-    height: 140px;
+    width: 250px;
+    height: 160px;
+    margin-left: 13%;
+    margin-top: -410px;
     position: absolute;
     z-index: 3;
-    margin-left: 12%;
-    margin-top: -200px;
 }
 
 .snowscape-middle-reviewbox-review-text {
-    width: 230px;
-    height: 140px;
+    width: 250px;
+    height: 160px;
+    margin-left: 40%;
+    margin-top: -410px;
     position: absolute;
     z-index: 3;
-    margin-left: 39.5%;
-    margin-top: -200px;
 }
 
 .snowscape-right-reviewbox-review-text {
-    width: 230px;
-    height: 140px;
+    width: 250px;
+    height: 160px;
+    margin-left: 66.5%;
+    margin-top: -410px;
     position: absolute;
     z-index: 3;
-    margin-left: 66.5%;
-    margin-top: -200px;
 }
 
-/* Footer Section*/
+
+/* FOOTER SECTION */
 .footer-background {
     background-image: url("../images/prototype_0006s_0001_Rectangle-14-copy.png");
     width: 100%;
