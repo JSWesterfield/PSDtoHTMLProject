@@ -29,14 +29,12 @@ footer {
 .unity-div {
     height: 0px;
     z-index: 2;
-    
 }
 
 .unity-icon {
     padding: 10px;
     border: 1px solid white;
     display: block;
-    margin-left: 600px;
     margin-top: 30px;
     height: 20px;
     width: 120px;
@@ -595,7 +593,7 @@ img.snowscape-background {
     font-size: 20px;
     font-family: 'Nanum Gothic', sans-serif;
     font-weight: bold;
-    margin-left: 39%;
+    margin-left: 38%;
     margin-top: -722px;
     position: absolute;
     z-index: 2;
@@ -603,8 +601,8 @@ img.snowscape-background {
 
 .snowscape-left-reviewbox {
     height: 475px;
-    width: 325px;
-    margin-left: 10%;
+    width: 290px;
+    margin-left: 14%;
     margin-top: -650px;
     position: absolute;
     z-index: 2;
@@ -612,8 +610,8 @@ img.snowscape-background {
 
 .snowscape-middle-reviewbox {
     height: 495px;
-    width: 345px;
-    margin-left: 37%;
+    width: 300px;
+    margin-left: 38%;
     margin-top: -650px;
     position: absolute;
     z-index: 2;
@@ -621,25 +619,25 @@ img.snowscape-background {
 
 .snowscape-right-reviewbox {
     height: 475px;
-    width: 325px;
-    margin-left: 64%;
+    width: 290px;
+    margin-left: 63%;
     margin-top: -650px;
     position: absolute;
     z-index: 2;
 }
 
 .snowscape-left-reviewbox-image {
-    width: 100px;
-    height: 100px;
-    margin-left: 19%;
+    width: 90px;
+    height: 90px;
+    margin-left: 21.5%;
     margin-top: -610px;
     position: absolute;
     z-index: 3;
 }
 
 .snowscape-middle-reviewbox-image {
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
     margin-left: 46%;
     margin-top: -610px;
     position: absolute;
@@ -647,9 +645,9 @@ img.snowscape-background {
 }
 
 .snowscape-right-reviewbox-image {
-    width: 100px;
-    height: 100px;
-    margin-left: 72.5%;
+    width: 90px;
+    height: 90px;
+    margin-left: 71%;
     margin-top: -610px;
     position: absolute;
     z-index: 3;
@@ -658,7 +656,7 @@ img.snowscape-background {
 .snowscape-left-reviewbox-review-stars {
     width: 95px;
     height: 17px;
-    margin-left: 19%;
+    margin-left: 21%;
     margin-top: -470px;
     position: absolute;
     z-index: 3;
@@ -667,7 +665,7 @@ img.snowscape-background {
 .snowscape-middle-reviewbox-review-stars {
     width: 95px;
     height: 17px;
-    margin-left: 46.5%;
+    margin-left: 46%;
     margin-top: -470px;
     position: absolute;
     z-index: 3;
@@ -676,7 +674,7 @@ img.snowscape-background {
 .snowscape-right-reviewbox-review-stars {
     width: 95px;
     height: 17px;
-    margin-left: 72.5%;
+    margin-left: 70.5%;
     margin-top: -470px;
     position: absolute;
     z-index: 3;
@@ -685,7 +683,7 @@ img.snowscape-background {
 .snowscape-left-reviewbox-review-text {
     width: 250px;
     height: 160px;
-    margin-left: 13%;
+    margin-left: 15.5%;
     margin-top: -410px;
     position: absolute;
     z-index: 3;
@@ -694,7 +692,7 @@ img.snowscape-background {
 .snowscape-middle-reviewbox-review-text {
     width: 250px;
     height: 160px;
-    margin-left: 40%;
+    margin-left: 39.5%;
     margin-top: -410px;
     position: absolute;
     z-index: 3;
@@ -703,7 +701,7 @@ img.snowscape-background {
 .snowscape-right-reviewbox-review-text {
     width: 250px;
     height: 160px;
-    margin-left: 66.5%;
+    margin-left: 64.5%;
     margin-top: -410px;
     position: absolute;
     z-index: 3;
@@ -714,28 +712,125 @@ img.snowscape-background {
 .footer-background {
     background-image: url("../images/prototype_0006s_0001_Rectangle-14-copy.png");
     width: 100%;
-    height: 600px;
+    height: 450px;
     position: relative;
     z-index: 1;
 }
 
-.footer-content-container {
-    position: absolute;
+.footer-nav-bar {
+    border-bottom: 1px solid #3f3c3c;
+    height: 70px;
+    width: 100%;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    display: inline-block; 
+    text-transform: uppercase;
+    background-color: transparent;
+    /* text-align: center; */
+    text-decoration: none;
+    font-family: 'Nanum Gothic', sans-serif;
     z-index: 2;
 }
 
-.footer-image-studygirl {
-    height: 200px;
-    width: 200px;
-    margin-top: 13%;
-    margin-left: 15%;
+.footer-nav-bar ul li p {
+    color: white;
+}
+
+.footer-nav-bar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+  }
+
+ .footer-nav-bar ul li {
+    display: inline-block;
+    height: 100%;
+}
+
+
+/* PHONE NAV LINK*/
+.footer-call-li {
+    float: left;
+    margin-left: 14%;
+    margin-top: 1.5%;
+    width: 23%;
+}
+
+.footer-icon-phone {
+    width: 14px;
+    height: 14px;
+    margin-left: 0px;
+}
+
+.footer-image-phone-number {
+    width: 217px;
+    height: 11px;
+}
+
+
+/* UNITY NAV LINK*/
+.footer-unity-li {
+    margin: auto;
+    margin-left: 150px;
+    margin-right: 40px;
+    width: 12%;
+}
+
+.footer-image-unity {
+    height: 20px;
+    width: 110px;
+    border: 2px solid white;
+    padding: 10px;
+}
+
+/* EMAIL NAV LINK */
+.footer-email-li {
+    float: right;
+    text-align: right;
+    margin-top: 1.5%;
+    margin-right: 14%;
+    width: 20%;
+}
+
+.footer-icon-letter {
+    width: 18px;
+    height: 10px;
+}
+
+.footer-image-email {
+    width: 217px;
+    height: 11px;
+}
+
+
+/* Container for all the content below the nav bar */
+.footer-content-container {
     position: absolute;
+    z-index: 2;
+    margin-top: 80px
 }
 
 .footer-aboutus {
-    height: 20px;
+    height: 13px;
     width: 100px;
-    margin-top: 9%;
-    margin-left: 15%;
+    margin-top: -40px;
+    margin-left: 14%;
+    position: absolute;
+}
+
+.footer-image-studygirl {
+    height: 160px;
+    width: 200px;
+    margin-left: 14%;
+    position: absolute;
+}
+
+.footer-lorem-text {
+    height: 123px;
+    width: 250px;
+    margin-left: 32%;
     position: absolute;
 }
