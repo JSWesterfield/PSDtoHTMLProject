@@ -834,3 +834,16 @@ img.snowscape-background {
     margin-left: 32%;
     position: absolute;
 }
+
+/* SOCIAL MEDIA ICON SECTION*/
+img.footer-icon {
+    height: 25px;
+    width: 25px;
+    margin-top: 230px;
+    margin-right: 10px;
+    vertical-align: middle;
+}   
+
+.footer-icon-container {
+    margin-left: 422px;
+}
