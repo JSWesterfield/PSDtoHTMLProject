@@ -32,17 +32,17 @@ footer {
 }
 
 .unity-icon {
+    height: 13px;
+    width: 80px;
     padding: 10px;
     border: 1px solid white;
     display: block;
-    margin-top: 30px;
-    height: 20px;
-    width: 120px;
-    position: absolute; 
-    z-index: 2;
-    list-style: none;
+    margin-top: 50px;
     margin-left: 45%;
     margin-right: 55%;
+    list-style: none;
+    position: absolute; 
+    z-index: 2;
 }
 
 .nav-bar {
@@ -50,10 +50,10 @@ footer {
     background-color: transparent;
     text-align: center;
     height: 50px;
-    margin-top: 120px;
+    margin-top: 130px;
     text-decoration: none;
-    font-family: 'Nanum Gothic', sans-serif;
-    letter-spacing: 2px;
+    font-family: 'Abraham', sans-serif;
+    letter-spacing: 4px;
     font-size: 15px;
     position: absolute;
     z-index: 2;
@@ -109,8 +109,7 @@ nav ul li a {
 
 .title-section {
     height: 20px;
-    font-family: 'Helvetica Narrow', sans-serif;
-    font-weight: 100;
+    font-family: 'Abraham', sans-serif;
     text-transform: uppercase;  
     background: transparent;
     top: 420px;
@@ -121,17 +120,17 @@ nav ul li a {
 .header-title {
     color: orange; 
     background: transparent;  
-    font-size:35px;
-    font-weight: 400;
-    letter-spacing: 1px;
-    margin-bottom: 10px;
+    font-size:50px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
 }
 
 .header-subtitle {
     color: white;
     font-size: 15px;
-    font-weight: 100;
-    letter-spacing: 2px;
+    font-weight: 500;
+    letter-spacing: 4px;
     margin-top: 0px;
     margin-bottom: 1px;
 }
@@ -786,6 +785,7 @@ img.snowscape-background {
     padding: 10px;
 }
 
+
 /* EMAIL NAV LINK */
 .footer-email-li {
     float: right;
@@ -823,27 +823,117 @@ img.snowscape-background {
 
 .footer-image-studygirl {
     height: 160px;
-    width: 200px;
+    width: 180px;
     margin-left: 14%;
     position: absolute;
 }
 
-.footer-lorem-text {
-    height: 123px;
-    width: 250px;
-    margin-left: 32%;
-    position: absolute;
+.lorem {
+    margin-bottom: 19px;
 }
+
+.lorem-text-paragraph {
+    font-size: 11px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 700;
+    width: 317px; 
+    height: 20px;
+    margin-left: 29%;
+    position: absolute;
+    color: #808080;
+}
+
 
 /* SOCIAL MEDIA ICON SECTION*/
 img.footer-icon {
-    height: 25px;
-    width: 25px;
-    margin-top: 230px;
-    margin-right: 10px;
+    height: 30px;
+    width: 32px;
+    margin-top: 240px;
+    margin-right: 11px;
     vertical-align: middle;
 }   
 
 .footer-icon-container {
-    margin-left: 422px;
+    margin-left: 390px;
+}
+
+.newsletter-title {
+    height: 13px;
+    width: 110px;
+    margin-top: -230px;
+    margin-left: 56%;
+    position: absolute;
+} 
+
+.newsletter-text {
+    height: 20px;
+    width: 317px; 
+    font-size: 11px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 700;
+    color: #808080;
+    margin-top: -190px;
+    margin-left: 56%;
+    position: absolute;
+}
+
+.newsletter-div {
+    height: 14px;
+    width: 200px;
+    margin-left: 56%;
+    margin-top: -300px;
+}
+
+.email-text-box-container {
+    height: 40px;
+    width: 210px;
+    margin-left: 56%;
+    margin-top: 120px;
+}
+
+.email-text-box {
+    height: 36px;
+    width: 200px;
+    border: 1px solid #808080;
+    position: absolute;
+    z-index: 1;
+}
+
+.email-text-box-text {
+    height: 13px;
+    width: 150px;
+    font-size: 13px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 800;
+    color: #808080;
+    margin: 10px;
+    position: absolute;
+    z-index: 2;
+}
+
+.subscribe-button-container {
+    margin-left: 56%;
+    margin-top: 43px;
+    height: 150px;
+    width: 50px;
+}
+
+.subscribe-button-text {
+    font-size: 14px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: white;
+    margin: 10px;
+    position: absolute;
+    z-index: 2;
+}
+
+.subscribe-button {
+    width: 138px;
+    height: 45px;
+    margin-top: 80px;
+    background-color: #694fca;
+    position: absolute;
+    z-index: 1;
 }
