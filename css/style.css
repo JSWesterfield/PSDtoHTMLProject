@@ -128,7 +128,7 @@ nav ul li a {
 
 .header-subtitle {
     color: white;
-    font-size: 15px;
+    font-size: 25px;
     font-weight: 500;
     letter-spacing: 4px;
     margin-top: 0px;
@@ -138,17 +138,17 @@ nav ul li a {
 .scroll-image {
     height: 45px;
     width: 45px;
-    margin-top: 120px;
+    margin-top: 167px;
 }
 
 .scroll-title {
     height: 30px;
     width: 30px;
     text-transform: uppercase;
-    letter-spacing: 0.5px;
+    letter-spacing: 3px;
     position: absolute;
-    margin-top: 170px;
-    margin-left: -55px;
+    margin-top: 211px;
+    margin-left: -44px;
     color: white;
     text-align: center;
 }
@@ -157,7 +157,7 @@ nav ul li a {
     height: 25px;
     width: 25px;
     position: absolute;
-    margin-top: 260px;
+    margin-top: 274px;
     margin-left: -35px;
     color: white;
     text-align: center;
@@ -170,13 +170,13 @@ nav ul li a {
     top: 210px;
     position: absolute;
     transform: rotate(-90deg);
-    font-family: 'Nanum Gothic', san-serif; 
+    font-family: 'Abraham', san-serif; 
     font-size: 15px;
     color: white;
     background-color: transparent;
     background: transparent;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
 }
 
 .copyright {
@@ -186,59 +186,58 @@ nav ul li a {
 
 /* PURPLE SECTION */
 .purple-background {
-    height: 1100px;
+    height: 1000px;
 }
 
 .purple-section-icons {
-    height: 700px;
-    width: 990px;
+    height: 600px;
+    width: 1020px;
     position: absolute;
     z-index: 2;
-    margin-top: -300px;
-    background: transparent;
-    margin-left: 20%;
-}
-
-/* .purple-section-icons-shadow {
-    height: 400px;
-    width: 400px;
-    position: absolute;
-    z-index: 1;
-    margin-top: -3px;
-    background: transparent;
-    margin-left: 63%;
-    border: 1px solid red;
-    opacity: 0.9;
+    margin-top: -273px;
     background: transparent;
     background-color: transparent;
-} */
+    margin-left: 18%;
+}
 
-.purple-section-title {
+.purple-section-title-one {
+    height: 200px;
     color: white;
-    font-size: 29px;
+    font-size: 63px;
+    font-family: 'Abraham', sans-serif;
     background: transparent;
     position: absolute;
     z-index: 2;
-    margin-left: 455px;
-    margin-top: 180px;
+    margin-left: 445px;
+    margin-top: 48px;
+    text-transform: uppercase;
+}
+
+.purple-section-title-two {
+    height: 200px;
+    color: white;
+    font-size: 63px;
+    font-family: 'Abraham', sans-serif;
+    background: transparent;
+    position: absolute;
+    z-index: 2;
+    margin-left: 445px;
+    margin-top: 83px;
     margin-bottom: 2px;
     text-transform: uppercase;
 }
 
 .purple-section-subtitle {
     color: white;
-    font-size: 17px;
+    font-size: 21px;
+    font-family: 'Abraham', sans-serif;
     background: transparent;
     position: absolute;
     z-index: 2;
-    margin-left: 455px;
-    margin-top: 220px;
+    margin-left: 445px;
+    margin-top: 151px;
     margin-bottom: 2px;
     text-transform: uppercase;
-}
-
-#purple-section-invites {
-    margin-bottom: 10px;
 }
 
 .purple-section-left-block-text {
@@ -268,6 +267,7 @@ nav ul li a {
     z-index: 2;
     margin-left: 20%;
     margin-top: -290px;
+    padding-top: 0px;
 }
 
 .purple-section-column-two {
@@ -280,7 +280,7 @@ nav ul li a {
 }
 
 .purple-section-column-three {
-    width: 180px;
+    width: 156px;
     height: 190px;
     position: absolute;
     z-index: 2;
@@ -290,30 +290,42 @@ nav ul li a {
 
   /* PURPLE ICONS */
 .purple-section-node-icon {
-    height: 40px;
-    width: 40px;
-    margin-bottom: 5px;
-    margin-top: -70px;
+    height: 36px;
+    width: 36px;
+    margin-top: -56px;
     position: absolute;
     z-index: 2;
 }
 
 .purple-section-hat-icon {
-    height: 40px;
-    width: 40px;
-    margin-bottom: 5px;
-    margin-top: -70px;
+    height: 36px;
+    width: 36px;
+    margin-top: -56px;
     position: absolute;
     z-index: 2;
 }
 
 .purple-section-tools-icon {
-    height: 40px;
-    width: 40px;
-    margin-bottom: 5px;
-    margin-top: -70px;
+    height: 36px;
+    width: 36px;
+    margin-top: -56px;
     position: absolute;
     z-index: 2;
+}
+
+.purple-section-node-icon-title {
+    height: 17px;
+    width: 138px;
+}
+
+.purple-section-hat-icon-title {
+    height: 17px;
+    width: 138px;
+}
+
+.purple-section-tools-icon-title {
+    height: 17px;
+    width: 138px;
 }
 
 .purple-section-tools-icon-divider {
@@ -335,20 +347,20 @@ nav ul li a {
 
 .purple-section-bottom-notch-orange {
     height: 4px;
-    width: 50px;
+    width: 32px;
     margin-top: -70px;
     position: absolute;
-    margin-left: 45%;
+    margin-left: 50%;
     border-radius: 25%;
     z-index: 2;
 }
 
 .purple-section-bottom-notch-white {
     height: 3px;
-    width: 48px;
+    width: 27px;
     margin-top: -70px;
-    margin-left: 50%;
-    border-radius: 25%;
+    margin-left: 54%;
+    border-radius: 53%;
     position: absolute;
     z-index: 2;
 }
@@ -360,7 +372,7 @@ nav ul li a {
     width: 230px;
     margin-left:40%;
     margin-right: 50%;
-    margin-top: 27%;
+    margin-top: 27.5%;
     padding: 10px;
     position: absolute;
     z-index: 2;
@@ -371,18 +383,18 @@ nav ul li a {
 }
 
 .city-title {
-    height: 50px;
-    width: 440px;
-    margin-left: 33%;
-    margin-top: -900px;
+    height: 506x;
+    width: 413px;
+    margin-left: 33.5%;
+    margin-top: -899px;
     position: absolute;
     z-index: 2;
 }
 
 .city-subtitle {
     height: 40px;
-    width: 580px;
-    margin-left: 28%;
+    width: 601px;
+    margin-left: 26%;
     margin-top: -820px;
     position: absolute;
     z-index: 2;
@@ -407,9 +419,11 @@ nav ul li a {
 }
 
 .white-section-top-black-outline-title-one {
-    height: 80px;
     width: 500px;
-    font-size: 50px;
+    color: black;
+    font-size: 63px;
+    font-family: 'Abraham', sans-serif;
+    text-transform: uppercase;
     margin-top: 80px;
     background: transparent;
     margin-left: 31%;
@@ -419,10 +433,12 @@ nav ul li a {
 }
 
 .white-section-top-black-outline-title-two {
-    height: 80px;
     width: 500px;
-    font-size: 50px;
-    margin-top: 130px;
+    color: black;
+    font-size: 63px;
+    font-family: 'Abraham', sans-serif;
+    text-transform: uppercase;
+    margin-top: 150px;
     background: transparent;
     margin-left: 31%;
     text-align: right;
@@ -433,13 +449,15 @@ nav ul li a {
 .white-section-top-black-outline-subtitle {
     height: 50px;
     width: 460px;
-    font-size: 28px;
+    font-size: 21px;
+    font-family: 'Abraham', sans-serif;
+    text-transform: uppercase;
     background: transparent;
-    margin-left: 35%;
+    margin-left: 33.5%;
     text-align: right;
-    margin-top: 200px;
+    margin-top: 227px;
     position: absolute;
-    z-index: 3;
+    z-index: 2;
 }
 
 .white-section-bottom-black-outline {
@@ -783,6 +801,7 @@ img.snowscape-background {
     width: 110px;
     border: 2px solid white;
     padding: 10px;
+    margin-left: -27%;
 }
 
 
@@ -791,7 +810,7 @@ img.snowscape-background {
     float: right;
     text-align: right;
     margin-top: 1.5%;
-    margin-right: 14%;
+    margin-right: 16%;
     width: 20%;
 }
 
@@ -815,29 +834,27 @@ img.snowscape-background {
 
 .footer-aboutus {
     height: 13px;
-    width: 100px;
+    width: 90px;
     margin-top: -40px;
     margin-left: 14%;
     position: absolute;
 }
 
 .footer-image-studygirl {
-    height: 160px;
-    width: 180px;
+    height: 140px;
+    width: 168px;
     margin-left: 14%;
     position: absolute;
 }
 
 .lorem {
-    margin-bottom: 19px;
+    margin-bottom: 18px;
 }
 
 .lorem-text-paragraph {
-    font-size: 11px;
+    font-size: 10px;
     font-family: 'Nanum Gothic', sans-serif;
     font-weight: 700;
-    width: 317px; 
-    height: 20px;
     margin-left: 29%;
     position: absolute;
     color: #808080;
@@ -845,36 +862,43 @@ img.snowscape-background {
 
 
 /* SOCIAL MEDIA ICON SECTION*/
-img.footer-icon {
-    height: 30px;
-    width: 32px;
-    margin-top: 240px;
-    margin-right: 11px;
-    vertical-align: middle;
-}   
-
 .footer-icon-container {
-    margin-left: 390px;
+    margin-left: 383px;
+}
+
+.footer-social-media-icons {
+    height: 40px;
+    width: 251px;
+    margin-top: 217px;
 }
 
 .newsletter-title {
     height: 13px;
     width: 110px;
     margin-top: -230px;
-    margin-left: 56%;
+    margin-left: 53%;
     position: absolute;
+    z-index: 1;
 } 
 
-.newsletter-text {
-    height: 20px;
-    width: 317px; 
-    font-size: 11px;
+.newsletter-text-one {
+    font-size: 13px;
     font-family: 'Nanum Gothic', sans-serif;
-    font-weight: 700;
     color: #808080;
-    margin-top: -190px;
-    margin-left: 56%;
+    margin-top: 151px;
+    margin-left: -3%;
     position: absolute;
+    z-index: 3;
+}
+
+.newsletter-text-two {
+    font-size: 13px;
+    font-family: 'Nanum Gothic', sans-serif;
+    color: #808080;
+    margin-top: 171px;
+    margin-left: -3%;
+    position: absolute;
+    z-index: 3;
 }
 
 .newsletter-div {
@@ -887,19 +911,20 @@ img.footer-icon {
 .email-text-box-container {
     height: 40px;
     width: 210px;
-    margin-left: 56%;
-    margin-top: 120px;
+    margin-left: 53%;
+    margin-top: 195px;
 }
 
-.email-text-box {
-    height: 36px;
-    width: 200px;
+.email-input-box {
+    height: 40px;
+    width: 216px;
+    margin-top: 1px;
     border: 1px solid #808080;
     position: absolute;
     z-index: 1;
 }
 
-.email-text-box-text {
+.email-input-box-text {
     height: 13px;
     width: 150px;
     font-size: 13px;
@@ -907,12 +932,13 @@ img.footer-icon {
     font-weight: 800;
     color: #808080;
     margin: 10px;
+    margin-top: 12px;
     position: absolute;
     z-index: 2;
 }
 
 .subscribe-button-container {
-    margin-left: 56%;
+    margin-left: 53%;
     margin-top: 43px;
     height: 150px;
     width: 50px;
@@ -930,10 +956,22 @@ img.footer-icon {
 }
 
 .subscribe-button {
-    width: 138px;
-    height: 45px;
-    margin-top: 80px;
+    width: 123px;
+    height: 40px;
+    margin-top: -21px;
     background-color: #694fca;
     position: absolute;
-    z-index: 1;
+    z-index: 2;
+}
+
+.subscribe-text {
+    font-size: 15px;
+    font-family: 'Nanum Gothic', sans-serif;
+    letter-spacing: 2px;
+    margin: 22px;
+    padding-top: 10px;
+    margin-top: -19px;
+    color: white;
+    position: absolute;
+    z-index: 3;
 }
