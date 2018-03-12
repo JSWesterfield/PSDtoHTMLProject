@@ -84,17 +84,15 @@ nav ul li a {
   text-decoration: none;
 }
 
-/* .telephone-line {
-    color: red;
-    background-color:red;;
-    -webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
+.telephone-icon-float {
+    width: 37px;
+    height: 155px;
     float: right;
-    width: 0%;
-}  */
+    margin-right: 7px;
+    margin-left: 1273px;
+    position: absolute;
+    z-index: 4;
+}
 
 .header-section {
     z-index: 1;
@@ -169,7 +167,7 @@ nav ul li a {
     right: -620px;
     top: 210px;
     transform: rotate(-90deg);
-    font-family: 'Abraham', san-serif; 
+    font-family: 'Abraham', 'san-serif';
     font-size: 15px;
     color: white;
     background-color: transparent;
@@ -535,8 +533,8 @@ nav ul li a {
 .white-section-bottom-black-outline-icon-divider {
     height: 80px;
     width: 370px;
-    margin-top: 900px;
     background: transparent;
+    margin-top: 900px;
     margin-left: 70%;
     position: absolute;
     z-index: 3;
@@ -544,11 +542,13 @@ nav ul li a {
 
 .icon-table {
     height: 280px;
-    width: 370px;
+    width: 330px;
+    font-size: 22px;
+    font-family: 'Abraham', 'san-serif';
     font-weight: 900;
     margin-top: 800px;
+    margin-left: 72%;
     background: transparent;
-    margin-left: 70%;
     text-transform: uppercase;
     position: absolute;
     z-index: 4;
@@ -563,7 +563,7 @@ td {
 .icon {
   	height: 22px;
     width: 22px;
-    padding-right: 10px;
+    padding-right: 9px;
     position: relative;
     z-index: 4;
 }
@@ -624,15 +624,6 @@ img.snowscape-background {
     position: absolute;
     z-index: 2;
 }
-
-/* .snowscape-middle-reviewbox {
-    height: 495px;
-    width: 300px;
-    margin-left: 38%;
-    margin-top: -650px;
-    position: absolute;
-    z-index: 2;
-} */
 
 .snowscape-middle-reviewbox {
     height: 470px;
@@ -996,10 +987,6 @@ img.snowscape-background {
     z-index: 2;
 }
 
-.footer-blog-pointer-icon {
-    font-size: 15px;
-}
-
 .footer-blog-image-one {
     height: 55px;
     width: 55px;
@@ -1008,6 +995,7 @@ img.snowscape-background {
     margin-bottom: 10px;
     position: absolute;
     z-index: 2;
+    border: 1px solid #7373ec;
 }
 
 .footer-blog-image-two {
@@ -1018,6 +1006,7 @@ img.snowscape-background {
     margin-bottom: 10px;
     position: absolute;
     z-index: 2;
+    border: 1px solid #7373ec;
 }
 
 .footer-blog-image-three {
@@ -1027,8 +1016,17 @@ img.snowscape-background {
     margin-left: 67.5%;
     margin-bottom: 10px;
     position: absolute;
-    z-index: 2;
+    z-index: 3;
+    border: 1px solid #7373ec;
 }
+
+.footer-blog-pointer-icon {
+    font-size: 15px;
+}
+
+
+
+
 
 
 
