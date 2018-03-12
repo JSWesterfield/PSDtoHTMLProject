@@ -154,21 +154,20 @@ nav ul li a {
 }
 
 .scroll-arrow {
-    height: 25px;
-    width: 25px;
-    position: absolute;
-    margin-top: 274px;
-    margin-left: -35px;
+    height: 17px;
+    width: 13px;
+    margin-top: 285px;
+    margin-left: -27px;
     color: white;
     text-align: center;
     background: transparent;
-    background: orange;
+    position: absolute;
+    z-index: 2;
 }
 
 .social-nav-bar {
     right: -620px;
     top: 210px;
-    position: absolute;
     transform: rotate(-90deg);
     font-family: 'Abraham', san-serif; 
     font-size: 15px;
@@ -177,6 +176,7 @@ nav ul li a {
     background: transparent;
     text-transform: uppercase;
     letter-spacing: 3px;
+    position: absolute;
 }
 
 .copyright {
@@ -192,12 +192,12 @@ nav ul li a {
 .purple-section-icons {
     height: 600px;
     width: 1020px;
-    position: absolute;
-    z-index: 2;
     margin-top: -273px;
     background: transparent;
     background-color: transparent;
     margin-left: 18%;
+    position: absolute;
+    z-index: 2;
 }
 
 .purple-section-title-one {
@@ -866,7 +866,7 @@ img.snowscape-background {
     font-size: 10px;
     font-family: 'Nanum Gothic', sans-serif;
     font-weight: 700;
-    margin-left: 29%;
+    margin-left: 28%;
     position: absolute;
     color: #808080;
 }
@@ -874,12 +874,12 @@ img.snowscape-background {
 
 /* SOCIAL MEDIA ICON SECTION*/
 .footer-icon-container {
-    margin-left: 383px;
+    margin-left: 28%;
 }
 
 .footer-social-media-icons {
-    height: 40px;
-    width: 251px;
+    height: 37px;
+    width: 245px;
     margin-top: 217px;
 }
 
@@ -887,27 +887,27 @@ img.snowscape-background {
     height: 13px;
     width: 110px;
     margin-top: -230px;
-    margin-left: 53%;
+    margin-left: 51%;
     position: absolute;
     z-index: 1;
 } 
 
 .newsletter-text-one {
-    font-size: 13px;
+    font-size: 12px;
     font-family: 'Nanum Gothic', sans-serif;
     color: #808080;
     margin-top: 151px;
-    margin-left: -3%;
+    margin-left: -5%;
     position: absolute;
     z-index: 3;
 }
 
 .newsletter-text-two {
-    font-size: 13px;
+    font-size: 12px;
     font-family: 'Nanum Gothic', sans-serif;
     color: #808080;
     margin-top: 171px;
-    margin-left: -3%;
+    margin-left: -5%;
     position: absolute;
     z-index: 3;
 }
@@ -922,13 +922,13 @@ img.snowscape-background {
 .email-text-box-container {
     height: 40px;
     width: 210px;
-    margin-left: 53%;
+    margin-left: 51%;
     margin-top: 195px;
 }
 
 .email-input-box {
-    height: 40px;
-    width: 216px;
+    height: 36px;
+    width: 200px;
     margin-top: 1px;
     border: 1px solid #808080;
     position: absolute;
@@ -938,7 +938,7 @@ img.snowscape-background {
 .email-input-box-text {
     height: 13px;
     width: 150px;
-    font-size: 13px;
+    font-size: 12px;
     font-family: 'Nanum Gothic', sans-serif;
     font-weight: 800;
     color: #808080;
@@ -949,14 +949,14 @@ img.snowscape-background {
 }
 
 .subscribe-button-container {
-    margin-left: 53%;
-    margin-top: 43px;
+    margin-left: 51%;
+    margin-top: 44px;
     height: 150px;
     width: 50px;
 }
 
 .subscribe-button-text {
-    font-size: 14px;
+    font-size: 12px;
     font-family: 'Nanum Gothic', sans-serif;
     font-weight: 400;
     letter-spacing: 2px;
@@ -967,8 +967,8 @@ img.snowscape-background {
 }
 
 .subscribe-button {
-    width: 123px;
-    height: 40px;
+    width: 120px;
+    height: 36px;
     margin-top: -21px;
     background-color: #694fca;
     position: absolute;
@@ -979,10 +979,56 @@ img.snowscape-background {
     font-size: 15px;
     font-family: 'Nanum Gothic', sans-serif;
     letter-spacing: 2px;
-    margin: 22px;
+    margin: 20px;
     padding-top: 10px;
-    margin-top: -19px;
+    margin-top: -22px;
     color: white;
     position: absolute;
     z-index: 3;
 }
+
+.footer-blog-title {
+    height: 13px;
+    width: 110px;
+    margin-top: -371px;
+    margin-left: 67.5%;
+    position: absolute;
+    z-index: 2;
+}
+
+.footer-blog-pointer-icon {
+    font-size: 15px;
+}
+
+.footer-blog-image-one {
+    height: 55px;
+    width: 55px;
+    margin-top: -300px;
+    margin-left: 67.5%;
+    margin-bottom: 10px;
+    position: absolute;
+    z-index: 2;
+}
+
+.footer-blog-image-two {
+    height: 55px;
+    width: 55px;
+    margin-top: -250px;
+    margin-left: 67.5%;
+    margin-bottom: 10px;
+    position: absolute;
+    z-index: 2;
+}
+
+.footer-blog-image-three {
+    height: 55px;
+    width: 55px;
+    margin-top: -200px;
+    margin-left: 67.5%;
+    margin-bottom: 10px;
+    position: absolute;
+    z-index: 2;
+}
+
+
+
