@@ -990,32 +990,30 @@ img.snowscape-background {
 }
 
 #blog-row-one {
-    padding: 0 auto;
     width: 305px;
-    height: 55px;
+    height: 50px;
     position: absolute;
     z-index: 3;
     margin-top: -300px;
     margin-left: 67.5%;
+    margin-bottom: 3px;
 }
 
 #blog-row-two {
-    padding: 0 auto;
     width: 305px;
-    height: 55px;
+    height: 50px;
     position: absolute;
     z-index: 3;
-    margin-top: -250px;
+    margin-top: -238px;
     margin-left: 67.5%;
 }
 
 #blog-row-three {
-    padding: 0 auto;
     width: 305px;
-    height: 55px;
+    height: 50px;
     position: absolute;
     z-index: 3;
-    margin-top: -200px;
+    margin-top: -176px;
     margin-left: 67.5%;
 }
 
@@ -1030,22 +1028,30 @@ img.snowscape-background {
 #blog-bracket-one {
     padding-top: 3px;
     float: left;
-    width: 23px;
+    width: 19px;
     height: 50px;
 }
 
 #blog-bracket-two {
     padding-top: 3px;
     float: left;
-    width: 23px;
+    width: 19px;
     height: 50px;
 }
 
 #blog-bracket-three {
     padding-top: 3px;
     float: left;
-    width: 23px;
+    width: 19px;
     height: 50px;
+}
+
+/*left space for bracket to move right*/
+.blog-bracket-left {
+    height: 48px;
+    width: 10px;
+    float: left;
+    font-size: 9px;
 }
 /* Right bracket*/
 .blog-bracket {
@@ -1055,14 +1061,6 @@ img.snowscape-background {
     font-weight: bold;
     color: #808080;
     float: right;
-}
-
-/*left space for bracket to move right*/
-.blog-bracket-left {
-    height: 48px;
-    width: 10px;
-    float: left;
-    font-size: 9px;
 }
 
 #blog-text-one {
