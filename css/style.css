@@ -625,13 +625,24 @@ img.snowscape-background {
     z-index: 2;
 }
 
-.snowscape-middle-reviewbox {
+/* .snowscape-middle-reviewbox {
     height: 495px;
     width: 300px;
     margin-left: 38%;
     margin-top: -650px;
     position: absolute;
     z-index: 2;
+} */
+
+.snowscape-middle-reviewbox {
+    height: 470px;
+    width: 300px;
+    background-color: #694fca;
+    margin-left: 38%;
+    margin-top: -650px;
+    position: absolute;
+    z-index: 2;
+    box-shadow: 0.5px 9px 9px 2px #9e9d9d; 
 }
 
 .snowscape-right-reviewbox {
