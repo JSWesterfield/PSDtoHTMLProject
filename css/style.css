@@ -986,13 +986,13 @@ img.snowscape-background {
     margin-top: -371px;
     margin-left: 67.5%;
     position: absolute;
-    z-index: 2;
+    z-index: 4;
 }
 
 #blog-row-one {
     padding: 0 auto;
     width: 305px;
-    height: 50px;
+    height: 55px;
     position: absolute;
     z-index: 3;
     margin-top: -300px;
@@ -1002,7 +1002,7 @@ img.snowscape-background {
 #blog-row-two {
     padding: 0 auto;
     width: 305px;
-    height: 50px;
+    height: 55px;
     position: absolute;
     z-index: 3;
     margin-top: -250px;
@@ -1012,7 +1012,7 @@ img.snowscape-background {
 #blog-row-three {
     padding: 0 auto;
     width: 305px;
-    height: 50px;
+    height: 55px;
     position: absolute;
     z-index: 3;
     margin-top: -200px;
@@ -1021,26 +1021,10 @@ img.snowscape-background {
 
 .blog-image {
     height: 50px;
-    padding-bottom: 3px;    
+    padding-bottom: 3px; 
     margin-bottom: 3px;
-}
-
-#blog-image-one {
     float: left;
-    width: 55px; 
-    height: 50px;
-}
-
-#blog-image-two {
-    float: left;
-    width: 55px; 
-    height: 50px;
-}
-
-#blog-image-three {
-    float: left;
-    width: 55px; 
-    height: 50px;
+    width: 55px;    
 }
 
 #blog-bracket-one {
