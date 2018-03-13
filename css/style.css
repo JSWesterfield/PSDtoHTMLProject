@@ -855,10 +855,12 @@ img.snowscape-background {
     width: 23%;
 }
 
-.footer-icon-phone {
+.footer-phone-icon {
     width: 16px;
     height: 16px;
     margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 10px;
 }
 
 .footer-phone-number {
@@ -869,8 +871,8 @@ img.snowscape-background {
     color: #ffff;
     text-transform: uppercase;
     letter-spacing: 3px;
-    margin-left: 2.5%;
-    margin-top: -19px;
+    margin-left: -0.5%;
+    margin-top: 5px;
     position: absolute;
     float: left;
 }
