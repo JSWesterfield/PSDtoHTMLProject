@@ -243,7 +243,7 @@ nav ul li a {
 }
 
 .purple-section-icons {
-    height: 600px;
+    height: 630px;
     width: 1020px;
     margin-top: -273px;
     background: transparent;
@@ -256,39 +256,39 @@ nav ul li a {
 .purple-section-title-one {
     height: 200px;
     color: white;
-    font-size: 63px;
+    font-size: 75px;
     font-family: 'Abraham', sans-serif;
     background: transparent;
     position: absolute;
     z-index: 2;
     margin-left: 445px;
-    margin-top: 48px;
+    margin-top: 53px;
     text-transform: uppercase;
 }
 
 .purple-section-title-two {
     height: 200px;
     color: white;
-    font-size: 63px;
+    font-size: 75px;
     font-family: 'Abraham', sans-serif;
     background: transparent;
     position: absolute;
     z-index: 2;
     margin-left: 445px;
-    margin-top: 83px;
+    margin-top: 100px;
     margin-bottom: 2px;
     text-transform: uppercase;
 }
 
 .purple-section-subtitle {
     color: white;
-    font-size: 21px;
+    font-size: 23px;
     font-family: 'Abraham', sans-serif;
     background: transparent;
     position: absolute;
     z-index: 2;
     margin-left: 445px;
-    margin-top: 151px;
+    margin-top: 181px;
     margin-bottom: 2px;
     text-transform: uppercase;
 }
@@ -862,6 +862,33 @@ img.snowscape-background {
     margin-top: 0px;
     margin-right: 10px;
 }
+    /* indented becuase inside of / target for this class element */
+    /* Footer phone icon animation */
+    .footer-phone-icon:hover {
+        animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+        transform: translate3d(0, 0, 0);
+        backface-visibility: hidden;
+        perspective: 1000px;
+    }
+    
+    @keyframes shake {
+        10%, 90% {
+        transform: translate3d(-1px, 0, 0);
+        }
+        
+        20%, 80% {
+        transform: translate3d(2px, 0, 0);
+        }
+    
+        30%, 50%, 70% {
+        transform: translate3d(-4px, 0, 0);
+        }
+    
+        40%, 60% {
+        transform: translate3d(4px, 0, 0);
+        }
+    }
+/* end of phone icon animation*/
 
 .footer-phone-number {
     height: 12px;
@@ -903,12 +930,40 @@ img.snowscape-background {
     width: 20%;
 }
 
-.footer-icon-letter {
+.footer-letter-icon {
     width: 19px;
     height: 11px;
     margin-left: 17%;
     margin-top: -24px;
 }
+
+        /* indented becuase inside of / target for this class element */
+    /* Footer phone icon animation */
+    .footer-letter-icon:hover {
+        animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+        transform: translate3d(0, 0, 0);
+        backface-visibility: hidden;
+        perspective: 1000px;
+    }
+    
+    @keyframes shake {
+        10%, 90% {
+        transform: translate3d(-1px, 0, 0);
+        }
+        
+        20%, 80% {
+        transform: translate3d(2px, 0, 0);
+        }
+    
+        30%, 50%, 70% {
+        transform: translate3d(-4px, 0, 0);
+        }
+    
+        40%, 60% {
+        transform: translate3d(4px, 0, 0);
+        }
+    }
+/* end of phone icon animation*/
 
 .footer-image-email {
     height: 12px;
