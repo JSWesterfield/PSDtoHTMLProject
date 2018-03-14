@@ -105,8 +105,8 @@ nav ul li a {
 }
 
 .telephone-icon-float {
-    width: 37px;
-    height: 155px;
+    width: 45px;
+    height: 170px;
     float: right;
     margin-right: 7px;
     margin-left: 1273px;
@@ -1034,6 +1034,25 @@ img.snowscape-background {
     margin-top: 219px;
 }
 
+/* .footer-social-media-icon-single {
+    height: 25px;
+    width: 25px;
+    margin-top: 219px;
+    opacity: 0.2;
+} */
+
+
+
+/* will replace the above static social media icon image strip, with individual
+ vertically aligned social media icons*/
+/* .footer-social-media-icon-facebook {
+    height: 25px;
+    width: 25px;
+    margin-top: 219px;
+    opacity: 0.2;
+} */
+
+
 .newsletter-title {
     height: 13px;
     width: 150px;
@@ -1098,7 +1117,6 @@ img.snowscape-background {
     z-index: 1;
     border: 1px solid #808080;
     transition: box-shadow .3s;
-    /* border: 2px solid #ffffff; */
     box-shadow: 0 0 5px #ffffff;  
 }
 
@@ -1154,6 +1172,18 @@ img.snowscape-background {
     position: absolute;
     z-index: 3;
 }
+
+    .subscribe-text:hover {
+        font-size: 15px;
+        font-family: 'Poppins', sans-serif;
+        letter-spacing: 2px;
+        margin: 15px;
+        padding-top: 10px;
+        margin-top: -24px;
+        color: white;
+        position: absolute;
+        z-index: 3;
+    }
 
 .footer-blog-title {
     height: 13px;
