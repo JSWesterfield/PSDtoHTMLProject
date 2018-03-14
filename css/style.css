@@ -663,7 +663,7 @@ img.snowscape-background {
     height: 60px;
     width: 735px;
     font-size: 20px;
-    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: bold;
     margin-left: 38%;
     margin-top: -722px;
@@ -826,7 +826,7 @@ img.snowscape-background {
     background-color: transparent;
     /* text-align: center; */
     text-decoration: none;
-    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Poppins', sans-serif;
     z-index: 2;
 }
 
@@ -1015,7 +1015,7 @@ img.snowscape-background {
 
 .lorem-text-paragraph {
     font-size: 10px;
-    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 700;
     margin-left: 28%;
     position: absolute;
@@ -1052,7 +1052,7 @@ img.snowscape-background {
 
 .newsletter-text-one {
     font-size: 12px;
-    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: #808080;
     margin-top: 151px;
     margin-left: -5%;
@@ -1062,7 +1062,7 @@ img.snowscape-background {
 
 .newsletter-text-two {
     font-size: 12px;
-    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: #808080;
     margin-top: 171px;
     margin-left: -5%;
@@ -1092,6 +1092,24 @@ img.snowscape-background {
     position: absolute;
     z-index: 1;
 }
+
+/* new input box for email */
+/* .email-input-box {
+    height: 36px;
+    width: 200px;
+    margin-top: 1px;
+    position: absolute;
+    z-index: 1;
+} 
+
+input[type='email']:focus, input[placeholder=''] {
+    text-align: left;
+}
+
+
+*/
+
+
 
 .email-input-box:hover {
     height: 36px;
