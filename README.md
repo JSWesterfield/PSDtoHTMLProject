@@ -9,15 +9,11 @@ PSDtoHTML was my project to create a PSD or Photoshop document into a single pag
 
 To start making changes to this repo you first have to clone the repo.
 
-
-
 ### Prerequisites
 
-What things you need to install the software and how to install them
+git 
 
-```
-Give examples
-```
+You would need to install git prior to cloning this repository.
 
 ### Installing
 
