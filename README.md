@@ -5,7 +5,28 @@ One Paragraph of project description goes here
 
 ## Getting Started
 
-PSDtoHTML was my project to create a PSD or Photoshop document into a single page application(SPA).
+PSDtoHTML was my project to create a PSD or Photoshop document into a single page application(SPA). 
+
+To start making changes to this repo you first have to clone the repo.
+
+Steps to Install: 
+-On GitHub, navigate to the main page of the repository.
+-Under the repository name, click Clone or download.
+-In the Clone with HTTPs section, click  to copy the clone URL for the repository.
+-Open Git Bash.
+-Change the current working directory to the location where you want the cloned directory to be made.
+
+```
+cd path/to/my/directory/where/I/want/to/clone/repo
+```
+
+-Type git clone, and then paste the URL you copied in Step 2.
+
+```
+git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+```
+
+Press Enter. Your local clone will be created.
 
 ### Prerequisites
 
