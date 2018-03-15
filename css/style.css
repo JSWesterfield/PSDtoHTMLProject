@@ -13,7 +13,6 @@ ul {
 
 div {
     margin-right: 0px;
-    margin-top: -10px;
     margin-bottom: 0px;
     padding: 0;
 }
@@ -25,7 +24,6 @@ body {
 footer {
     height: 100px;
 }
-
 
 /*  Header Section */
 .unity-div {
