@@ -220,7 +220,7 @@ nav ul li a {
     right: -620px;
     top: 210px;
     transform: rotate(-90deg);
-    font-family: 'Abraham', 'san-serif';
+    font-family: 'Abraham', sans-serif;
     font-size: 15px;
     color: white;
     background-color: transparent;
@@ -597,7 +597,7 @@ nav ul li a {
     height: 280px;
     width: 320px;
     font-size: 22px;
-    font-family: 'Abraham', 'san-serif';
+    font-family: 'Abraham', sans-serif;
     font-weight: 900;
     margin-top: 800px;
     margin-left: 71%;
@@ -822,7 +822,6 @@ img.snowscape-background {
     display: inline-block; 
     text-transform: uppercase;
     background-color: transparent;
-    /* text-align: center; */
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
     z-index: 2;
