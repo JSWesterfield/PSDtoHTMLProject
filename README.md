@@ -9,24 +9,7 @@ PSDtoHTML was my project to create a PSD or Photoshop document into a single pag
 
 To start making changes to this repo you first have to clone the repo.
 
-Steps to Install: 
--On GitHub, navigate to the main page of the repository.
--Under the repository name, click Clone or download.
--In the Clone with HTTPs section, click  to copy the clone URL for the repository.
--Open Git Bash.
--Change the current working directory to the location where you want the cloned directory to be made.
 
-```
-cd path/to/my/directory/where/I/want/to/clone/repo
-```
-
--Type git clone, and then paste the URL you copied in Step 2.
-
-```
-git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-```
-
-Press Enter. Your local clone will be created.
 
 ### Prerequisites
 
@@ -38,22 +21,31 @@ Give examples
 
 ### Installing
 
-A step by step series of examples that tell you have to get a development env running
+Steps to Install: 
 
-Say what the step will be
+First install git here:
+https://git-scm.com/downloads
+
+On GitHub, navigate to the main page of the repository.
+Under the repository name, click Clone or download.
+In the Clone with HTTPs section, click  to copy the clone URL for the repository.
+Open Git Bash.
+Change the current working directory to the location where you want the cloned directory to be made.
 
 ```
-Give the example
+cd path/to/my/directory/where/I/want/to/clone/repo
 ```
 
-And repeat
+Type git clone, and then paste the URL you copied in Step 2.
 
 ```
-until finished
+git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
-Add additional notes about how to deploy this on a live system
+Press Enter. Your local clone will be created.
+```
+git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+```
 
 ## Built With
 
@@ -71,9 +63,9 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Jacob Westerfield** - [Porfolio Page](http://jakewesterfield.herokuapp.com/)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/JSWesterfield/PSDtoHTMLProject/graphs/contributors) who participated in this project.
 
 ## License
 
@@ -81,6 +73,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
+* Most Conversion into PSD components not refined, might have to edit and modify some pictures within photoshop.
+* Mozilla MDN Docs
+* Thanks to my my dev team at Techtonic Group
