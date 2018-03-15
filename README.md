@@ -5,7 +5,7 @@ One Paragraph of project description goes here
 
 ## Getting Started
 
-PSDtoHTML was my project to create a PSD or Photoshop document into a single page application(SPA). 
+PSDtoHTML was my project to create a PSD or Photoshop document into a single page application(SPA). git check
 
 To start making changes to this repo you first have to clone the repo.
 
